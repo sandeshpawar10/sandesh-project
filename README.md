@@ -1,2 +1,2 @@
 # leetcode-matrics
-My fisrt projects 
+My first projects of javascript
