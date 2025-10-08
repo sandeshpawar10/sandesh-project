@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="leetcode-matrics.css">
+    <title>LeetMatric</title>
+</head>
+<body>
+    <div class="container">
+        <!-- heading-section -->
+        <div id="heading">
+            <h1>LeetMatric</h1>
+        </div>
+
+        <!-- user-input-section -->
+        <div class="input-container">
+            <label for="username" id="user">Enter Username: </label>
+        
+            <input type="text" id="username">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <!-- user-info-section -->
+        <div class="user-info">
+            <div class="progress">
+                <div class="info-circle">
+                    <div class="easy-circle">
+                        <span id="easy">Easy</span>
+                    </div>
+                </div>
+                <div class="info-circle">
+                    <div class="medium-circle">
+                        <span id="medium">Medium</span>
+                    </div>
+                </div>
+                <div class="info-circle">
+                    <div class="hard-circle">
+                        <span id="hard">Hard</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- cards-container-by-js -->
+        <div class="stats-card">
+            <div class="card">
+                <div class="tcard">
+                    <h4>Total Submissions</h4>
+                    <p class="tcount">0</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="ecard">
+                    <h4>Easy Submissions</h4>
+                    <p class="ecount">0</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="mcard">
+                    <h4>Medium Submissions</h4>
+                    <p class="mcount">0</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="hcard">
+                    <h4>Hard Submissions</h4>
+                    <p class="hcount">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="leetcode-matrics.js"></script>
+</body>
+</html>
